@@ -1,0 +1,565 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MensajeFacturacion xmlns="http://localhost/elegibilidad" Firmar="S">
+  <Cabecera>
+    <CodigoREEEmpresaEmisora>0027</CodigoREEEmpresaEmisora>
+    <CodigoREEEmpresaDestino>0815</CodigoREEEmpresaDestino>
+    <CodigoDelProceso>F1</CodigoDelProceso>
+    <CodigoDePaso>01</CodigoDePaso>
+    <CodigoDeSolicitud>189127081502</CodigoDeSolicitud>
+    <SecuencialDeSolicitud>00</SecuencialDeSolicitud>
+    <FechaSolicitud>2018-03-06T00:00:00</FechaSolicitud>
+    <CUPS>ES0027700035196001PC0F</CUPS>
+  </Cabecera>
+  <Facturas>
+    <FacturaATR>
+      <DatosGeneralesFacturaATR>
+        <DireccionSuministro>
+          <Pais>ES</Pais>
+          <Provincia>39</Provincia>
+          <Municipio>39075</Municipio>
+          <CodPostal>39009</CodPostal>
+          <Calle>CARLOS HAYA</Calle>
+          <NumeroFinca>14</NumeroFinca>
+        </DireccionSuministro>
+        <Cliente>
+          <TipoIdentificador>NI</TipoIdentificador>
+          <Identificador>B55567986</Identificador>
+        </Cliente>
+        <CodContrato>6104900164</CodContrato>
+        <DatosGeneralesFactura>
+          <CodigoFiscalFactura>0810930041179270</CodigoFiscalFactura>
+          <TipoFactura>N</TipoFactura>
+          <MotivoFacturacion>01</MotivoFacturacion>
+          <FechaFactura>2018-03-06</FechaFactura>
+          <IdentificadorEmisora>B62733159</IdentificadorEmisora>
+          <ImporteTotalFactura>263.51</ImporteTotalFactura>
+          <TipoMoneda>02</TipoMoneda>
+        </DatosGeneralesFactura>
+        <DatosFacturaATR>
+          <FechaBOE>2017-12-27</FechaBOE>
+          <TarifaATRFact>003</TarifaATRFact>
+          <MarcaMedidaConPerdidas>N</MarcaMedidaConPerdidas>
+          <IndicativoCurvaCarga>03</IndicativoCurvaCarga>
+          <Periodo>
+            <FechaDesdeFactura>2018-02-04</FechaDesdeFactura>
+            <FechaHastaFactura>2018-03-04</FechaHastaFactura>
+            <NumeroDias>28</NumeroDias>
+          </Periodo>
+        </DatosFacturaATR>
+      </DatosGeneralesFacturaATR>
+      <Potencia>
+        <TerminoPotencia>
+          <FechaDesde>2018-02-04</FechaDesde>
+          <FechaHasta>2018-03-04</FechaHasta>
+          <Periodo>
+            <PotenciaContratada>34641</PotenciaContratada>
+            <PotenciaMaxDemandada>1516</PotenciaMaxDemandada>
+            <PotenciaAFacturar>29445</PotenciaAFacturar>
+            <PrecioPotencia>0.000111586</PrecioPotencia>
+          </Periodo>
+          <Periodo>
+            <PotenciaContratada>34641</PotenciaContratada>
+            <PotenciaMaxDemandada>24168</PotenciaMaxDemandada>
+            <PotenciaAFacturar>29445</PotenciaAFacturar>
+            <PrecioPotencia>0.000066952</PrecioPotencia>
+          </Periodo>
+          <Periodo>
+            <PotenciaContratada>34641</PotenciaContratada>
+            <PotenciaMaxDemandada>23200</PotenciaMaxDemandada>
+            <PotenciaAFacturar>29445</PotenciaAFacturar>
+            <PrecioPotencia>0.000044634</PrecioPotencia>
+          </Periodo>
+        </TerminoPotencia>
+        <ImporteTotalTerminoPotencia>184.00</ImporteTotalTerminoPotencia>
+      </Potencia>
+      <EnergiaActiva>
+        <TerminoEnergiaActiva>
+          <FechaDesde>2018-02-04</FechaDesde>
+          <FechaHasta>2018-03-04</FechaHasta>
+          <Periodo>
+            <ValorEnergiaActiva>140.00</ValorEnergiaActiva>
+            <PrecioEnergia>0.018762000</PrecioEnergia>
+          </Periodo>
+          <Periodo>
+            <ValorEnergiaActiva>1785.00</ValorEnergiaActiva>
+            <PrecioEnergia>0.012575000</PrecioEnergia>
+          </Periodo>
+          <Periodo>
+            <ValorEnergiaActiva>460.00</ValorEnergiaActiva>
+            <PrecioEnergia>0.004670000</PrecioEnergia>
+          </Periodo>
+        </TerminoEnergiaActiva>
+        <ImporteTotalEnergiaActiva>27.23</ImporteTotalEnergiaActiva>
+      </EnergiaActiva>
+      <EnergiaReactiva>
+        <TerminoEnergiaReactiva>
+          <FechaDesde>2018-02-04</FechaDesde>
+          <FechaHasta>2018-03-04</FechaHasta>
+          <Periodo>
+            <ValorEnergiaReactiva>0.00</ValorEnergiaReactiva>
+            <PrecioEnergiaReactiva>0.062332000</PrecioEnergiaReactiva>
+          </Periodo>
+          <Periodo>
+            <ValorEnergiaReactiva>0.00</ValorEnergiaReactiva>
+            <PrecioEnergiaReactiva>0.062332000</PrecioEnergiaReactiva>
+          </Periodo>
+          <Periodo>
+            <ValorEnergiaReactiva>0.00</ValorEnergiaReactiva>
+            <PrecioEnergiaReactiva>0.000000000</PrecioEnergiaReactiva>
+          </Periodo>
+        </TerminoEnergiaReactiva>
+        <ImporteTotalEnergiaReactiva>0.00</ImporteTotalEnergiaReactiva>
+      </EnergiaReactiva>
+      <ImpuestoElectrico>
+        <BaseImponible>0.00</BaseImponible>
+        <Porcentaje>0.00000000</Porcentaje>
+        <Importe>0.00</Importe>
+      </ImpuestoElectrico>
+      <Alquileres>
+        <PrecioDiarioAlquiler>
+          <PrecioDia>0.233753425</PrecioDia>
+          <NumeroDias>28</NumeroDias>
+        </PrecioDiarioAlquiler>
+        <ImporteFacturacionAlquileres>6.55</ImporteFacturacionAlquileres>
+      </Alquileres>
+      <IVA>
+        <BaseImponible>217.78</BaseImponible>
+        <Porcentaje>21.00</Porcentaje>
+        <Importe>45.73</Importe>
+      </IVA>
+      <Medidas>
+        <CodPM>ES0027700035196001PC0F</CodPM>
+        <ModeloAparato>
+          <TipoAparato>TG</TipoAparato>
+          <MarcaAparato>134</MarcaAparato>
+          <NumeroSerie>14E4E5B2108007223</NumeroSerie>
+          <TipoDHEdM>3</TipoDHEdM>
+          <Integrador>
+            <Magnitud>AE</Magnitud>
+            <CodigoPeriodo>61</CodigoPeriodo>
+            <ConstanteMultiplicadora>1</ConstanteMultiplicadora>
+            <NumeroRuedasEnteras>6</NumeroRuedasEnteras>
+            <NumeroRuedasDecimales>1</NumeroRuedasDecimales>
+            <ConsumoCalculado>73.00</ConsumoCalculado>
+            <LecturaDesde>
+              <Fecha>2018-02-04</Fecha>
+              <Procedencia>60</Procedencia>
+              <Lectura>11896</Lectura>
+            </LecturaDesde>
+            <LecturaHasta>
+              <Fecha>2018-03-04</Fecha>
+              <Procedencia>60</Procedencia>
+              <Lectura>11969</Lectura>
+            </LecturaHasta>
+          </Integrador>
+          <Integrador>
+            <Magnitud>AE</Magnitud>
+            <CodigoPeriodo>62</CodigoPeriodo>
+            <ConstanteMultiplicadora>1</ConstanteMultiplicadora>
+            <NumeroRuedasEnteras>6</NumeroRuedasEnteras>
+            <NumeroRuedasDecimales>1</NumeroRuedasDecimales>
+            <ConsumoCalculado>1586.00</ConsumoCalculado>
+            <LecturaDesde>
+              <Fecha>2018-02-04</Fecha>
+              <Procedencia>60</Procedencia>
+              <Lectura>31630</Lectura>
+            </LecturaDesde>
+            <LecturaHasta>
+              <Fecha>2018-03-04</Fecha>
+              <Procedencia>60</Procedencia>
+              <Lectura>33216</Lectura>
+            </LecturaHasta>
+          </Integrador>
+          <Integrador>
+            <Magnitud>AE</Magnitud>
+            <CodigoPeriodo>63</CodigoPeriodo>
+            <ConstanteMultiplicadora>1</ConstanteMultiplicadora>
+            <NumeroRuedasEnteras>6</NumeroRuedasEnteras>
+            <NumeroRuedasDecimales>1</NumeroRuedasDecimales>
+            <ConsumoCalculado>324.00</ConsumoCalculado>
+            <LecturaDesde>
+              <Fecha>2018-02-04</Fecha>
+              <Procedencia>60</Procedencia>
+              <Lectura>8653</Lectura>
+            </LecturaDesde>
+            <LecturaHasta>
+              <Fecha>2018-03-04</Fecha>
+              <Procedencia>60</Procedencia>
+              <Lectura>8977</Lectura>
+            </LecturaHasta>
+          </Integrador>
+          <Integrador>
+            <Magnitud>AE</Magnitud>
+            <CodigoPeriodo>64</CodigoPeriodo>
+            <ConstanteMultiplicadora>1</ConstanteMultiplicadora>
+            <NumeroRuedasEnteras>6</NumeroRuedasEnteras>
+            <NumeroRuedasDecimales>1</NumeroRuedasDecimales>
+            <ConsumoCalculado>67.00</ConsumoCalculado>
+            <LecturaDesde>
+              <Fecha>2018-02-04</Fecha>
+              <Procedencia>60</Procedencia>
+              <Lectura>657</Lectura>
+            </LecturaDesde>
+            <LecturaHasta>
+              <Fecha>2018-03-04</Fecha>
+              <Procedencia>60</Procedencia>
+              <Lectura>724</Lectura>
+            </LecturaHasta>
+          </Integrador>
+          <Integrador>
+            <Magnitud>AE</Magnitud>
+            <CodigoPeriodo>65</CodigoPeriodo>
+            <ConstanteMultiplicadora>1</ConstanteMultiplicadora>
+            <NumeroRuedasEnteras>6</NumeroRuedasEnteras>
+            <NumeroRuedasDecimales>1</NumeroRuedasDecimales>
+            <ConsumoCalculado>199.00</ConsumoCalculado>
+            <LecturaDesde>
+              <Fecha>2018-02-04</Fecha>
+              <Procedencia>60</Procedencia>
+              <Lectura>2008</Lectura>
+            </LecturaDesde>
+            <LecturaHasta>
+              <Fecha>2018-03-04</Fecha>
+              <Procedencia>60</Procedencia>
+              <Lectura>2207</Lectura>
+            </LecturaHasta>
+          </Integrador>
+          <Integrador>
+            <Magnitud>AE</Magnitud>
+            <CodigoPeriodo>66</CodigoPeriodo>
+            <ConstanteMultiplicadora>1</ConstanteMultiplicadora>
+            <NumeroRuedasEnteras>6</NumeroRuedasEnteras>
+            <NumeroRuedasDecimales>1</NumeroRuedasDecimales>
+            <ConsumoCalculado>136.00</ConsumoCalculado>
+            <LecturaDesde>
+              <Fecha>2018-02-04</Fecha>
+              <Procedencia>60</Procedencia>
+              <Lectura>1345</Lectura>
+            </LecturaDesde>
+            <LecturaHasta>
+              <Fecha>2018-03-04</Fecha>
+              <Procedencia>60</Procedencia>
+              <Lectura>1481</Lectura>
+            </LecturaHasta>
+          </Integrador>
+          <Integrador>
+            <Magnitud>R1</Magnitud>
+            <CodigoPeriodo>61</CodigoPeriodo>
+            <ConstanteMultiplicadora>1</ConstanteMultiplicadora>
+            <NumeroRuedasEnteras>6</NumeroRuedasEnteras>
+            <NumeroRuedasDecimales>1</NumeroRuedasDecimales>
+            <ConsumoCalculado>9.00</ConsumoCalculado>
+            <LecturaDesde>
+              <Fecha>2018-02-04</Fecha>
+              <Procedencia>60</Procedencia>
+              <Lectura>227</Lectura>
+            </LecturaDesde>
+            <LecturaHasta>
+              <Fecha>2018-03-04</Fecha>
+              <Procedencia>60</Procedencia>
+              <Lectura>236</Lectura>
+            </LecturaHasta>
+          </Integrador>
+          <Integrador>
+            <Magnitud>R1</Magnitud>
+            <CodigoPeriodo>62</CodigoPeriodo>
+            <ConstanteMultiplicadora>1</ConstanteMultiplicadora>
+            <NumeroRuedasEnteras>6</NumeroRuedasEnteras>
+            <NumeroRuedasDecimales>1</NumeroRuedasDecimales>
+            <ConsumoCalculado>304.00</ConsumoCalculado>
+            <LecturaDesde>
+              <Fecha>2018-02-04</Fecha>
+              <Procedencia>60</Procedencia>
+              <Lectura>2238</Lectura>
+            </LecturaDesde>
+            <LecturaHasta>
+              <Fecha>2018-03-04</Fecha>
+              <Procedencia>60</Procedencia>
+              <Lectura>2542</Lectura>
+            </LecturaHasta>
+          </Integrador>
+          <Integrador>
+            <Magnitud>R1</Magnitud>
+            <CodigoPeriodo>63</CodigoPeriodo>
+            <ConstanteMultiplicadora>1</ConstanteMultiplicadora>
+            <NumeroRuedasEnteras>6</NumeroRuedasEnteras>
+            <NumeroRuedasDecimales>1</NumeroRuedasDecimales>
+            <ConsumoCalculado>47.00</ConsumoCalculado>
+            <LecturaDesde>
+              <Fecha>2018-02-04</Fecha>
+              <Procedencia>60</Procedencia>
+              <Lectura>476</Lectura>
+            </LecturaDesde>
+            <LecturaHasta>
+              <Fecha>2018-03-04</Fecha>
+              <Procedencia>60</Procedencia>
+              <Lectura>523</Lectura>
+            </LecturaHasta>
+          </Integrador>
+          <Integrador>
+            <Magnitud>R1</Magnitud>
+            <CodigoPeriodo>64</CodigoPeriodo>
+            <ConstanteMultiplicadora>1</ConstanteMultiplicadora>
+            <NumeroRuedasEnteras>6</NumeroRuedasEnteras>
+            <NumeroRuedasDecimales>1</NumeroRuedasDecimales>
+            <ConsumoCalculado>0.00</ConsumoCalculado>
+            <LecturaDesde>
+              <Fecha>2018-02-04</Fecha>
+              <Procedencia>60</Procedencia>
+              <Lectura>120</Lectura>
+            </LecturaDesde>
+            <LecturaHasta>
+              <Fecha>2018-03-04</Fecha>
+              <Procedencia>60</Procedencia>
+              <Lectura>120</Lectura>
+            </LecturaHasta>
+          </Integrador>
+          <Integrador>
+            <Magnitud>R1</Magnitud>
+            <CodigoPeriodo>65</CodigoPeriodo>
+            <ConstanteMultiplicadora>1</ConstanteMultiplicadora>
+            <NumeroRuedasEnteras>6</NumeroRuedasEnteras>
+            <NumeroRuedasDecimales>1</NumeroRuedasDecimales>
+            <ConsumoCalculado>0.00</ConsumoCalculado>
+            <LecturaDesde>
+              <Fecha>2018-02-04</Fecha>
+              <Procedencia>60</Procedencia>
+              <Lectura>390</Lectura>
+            </LecturaDesde>
+            <LecturaHasta>
+              <Fecha>2018-03-04</Fecha>
+              <Procedencia>60</Procedencia>
+              <Lectura>390</Lectura>
+            </LecturaHasta>
+          </Integrador>
+          <Integrador>
+            <Magnitud>R1</Magnitud>
+            <CodigoPeriodo>66</CodigoPeriodo>
+            <ConstanteMultiplicadora>1</ConstanteMultiplicadora>
+            <NumeroRuedasEnteras>6</NumeroRuedasEnteras>
+            <NumeroRuedasDecimales>1</NumeroRuedasDecimales>
+            <ConsumoCalculado>0.00</ConsumoCalculado>
+            <LecturaDesde>
+              <Fecha>2018-02-04</Fecha>
+              <Procedencia>60</Procedencia>
+              <Lectura>265</Lectura>
+            </LecturaDesde>
+            <LecturaHasta>
+              <Fecha>2018-03-04</Fecha>
+              <Procedencia>60</Procedencia>
+              <Lectura>265</Lectura>
+            </LecturaHasta>
+          </Integrador>
+          <Integrador>
+            <Magnitud>PM</Magnitud>
+            <CodigoPeriodo>61</CodigoPeriodo>
+            <ConstanteMultiplicadora>1</ConstanteMultiplicadora>
+            <NumeroRuedasEnteras>6</NumeroRuedasEnteras>
+            <NumeroRuedasDecimales>1</NumeroRuedasDecimales>
+            <ConsumoCalculado>1516.00</ConsumoCalculado>
+            <LecturaDesde>
+              <Fecha>2018-02-04</Fecha>
+              <Procedencia>60</Procedencia>
+              <Lectura>0</Lectura>
+            </LecturaDesde>
+            <LecturaHasta>
+              <Fecha>2018-03-04</Fecha>
+              <Procedencia>60</Procedencia>
+              <Lectura>1516</Lectura>
+            </LecturaHasta>
+            <FechaHoraMaximetro>2018-02-28T00:00:00</FechaHoraMaximetro>
+          </Integrador>
+          <Integrador>
+            <Magnitud>PM</Magnitud>
+            <CodigoPeriodo>62</CodigoPeriodo>
+            <ConstanteMultiplicadora>1</ConstanteMultiplicadora>
+            <NumeroRuedasEnteras>6</NumeroRuedasEnteras>
+            <NumeroRuedasDecimales>1</NumeroRuedasDecimales>
+            <ConsumoCalculado>24168.00</ConsumoCalculado>
+            <LecturaDesde>
+              <Fecha>2018-02-04</Fecha>
+              <Procedencia>60</Procedencia>
+              <Lectura>0</Lectura>
+            </LecturaDesde>
+            <LecturaHasta>
+              <Fecha>2018-03-04</Fecha>
+              <Procedencia>60</Procedencia>
+              <Lectura>24168</Lectura>
+            </LecturaHasta>
+            <FechaHoraMaximetro>2018-02-28T00:00:00</FechaHoraMaximetro>
+          </Integrador>
+          <Integrador>
+            <Magnitud>PM</Magnitud>
+            <CodigoPeriodo>63</CodigoPeriodo>
+            <ConstanteMultiplicadora>1</ConstanteMultiplicadora>
+            <NumeroRuedasEnteras>6</NumeroRuedasEnteras>
+            <NumeroRuedasDecimales>1</NumeroRuedasDecimales>
+            <ConsumoCalculado>23200.00</ConsumoCalculado>
+            <LecturaDesde>
+              <Fecha>2018-02-04</Fecha>
+              <Procedencia>60</Procedencia>
+              <Lectura>0</Lectura>
+            </LecturaDesde>
+            <LecturaHasta>
+              <Fecha>2018-03-04</Fecha>
+              <Procedencia>60</Procedencia>
+              <Lectura>23200</Lectura>
+            </LecturaHasta>
+            <FechaHoraMaximetro>2018-02-28T00:00:00</FechaHoraMaximetro>
+          </Integrador>
+          <Integrador>
+            <Magnitud>PM</Magnitud>
+            <CodigoPeriodo>64</CodigoPeriodo>
+            <ConstanteMultiplicadora>1</ConstanteMultiplicadora>
+            <NumeroRuedasEnteras>6</NumeroRuedasEnteras>
+            <NumeroRuedasDecimales>1</NumeroRuedasDecimales>
+            <ConsumoCalculado>1408.00</ConsumoCalculado>
+            <LecturaDesde>
+              <Fecha>2018-02-04</Fecha>
+              <Procedencia>60</Procedencia>
+              <Lectura>0</Lectura>
+            </LecturaDesde>
+            <LecturaHasta>
+              <Fecha>2018-03-04</Fecha>
+              <Procedencia>60</Procedencia>
+              <Lectura>1408</Lectura>
+            </LecturaHasta>
+            <FechaHoraMaximetro>2018-02-28T00:00:00</FechaHoraMaximetro>
+          </Integrador>
+          <Integrador>
+            <Magnitud>PM</Magnitud>
+            <CodigoPeriodo>65</CodigoPeriodo>
+            <ConstanteMultiplicadora>1</ConstanteMultiplicadora>
+            <NumeroRuedasEnteras>6</NumeroRuedasEnteras>
+            <NumeroRuedasDecimales>1</NumeroRuedasDecimales>
+            <ConsumoCalculado>1560.00</ConsumoCalculado>
+            <LecturaDesde>
+              <Fecha>2018-02-04</Fecha>
+              <Procedencia>60</Procedencia>
+              <Lectura>0</Lectura>
+            </LecturaDesde>
+            <LecturaHasta>
+              <Fecha>2018-03-04</Fecha>
+              <Procedencia>60</Procedencia>
+              <Lectura>1560</Lectura>
+            </LecturaHasta>
+            <FechaHoraMaximetro>2018-02-28T00:00:00</FechaHoraMaximetro>
+          </Integrador>
+          <Integrador>
+            <Magnitud>PM</Magnitud>
+            <CodigoPeriodo>66</CodigoPeriodo>
+            <ConstanteMultiplicadora>1</ConstanteMultiplicadora>
+            <NumeroRuedasEnteras>6</NumeroRuedasEnteras>
+            <NumeroRuedasDecimales>1</NumeroRuedasDecimales>
+            <ConsumoCalculado>1616.00</ConsumoCalculado>
+            <LecturaDesde>
+              <Fecha>2018-02-04</Fecha>
+              <Procedencia>60</Procedencia>
+              <Lectura>0</Lectura>
+            </LecturaDesde>
+            <LecturaHasta>
+              <Fecha>2018-03-04</Fecha>
+              <Procedencia>60</Procedencia>
+              <Lectura>1616</Lectura>
+            </LecturaHasta>
+            <FechaHoraMaximetro>2018-02-28T00:00:00</FechaHoraMaximetro>
+          </Integrador>
+        </ModeloAparato>
+      </Medidas>
+    </FacturaATR>
+    <RegistroFin>
+      <ImporteTotal>382.80</ImporteTotal>
+      <SaldoTotalFacturacion>0.00</SaldoTotalFacturacion>
+      <TotalRecibos>2</TotalRecibos>
+      <TipoMoneda>02</TipoMoneda>
+      <FechaValor>2018-03-06</FechaValor>
+      <FechaLimitePago>2018-03-13</FechaLimitePago>
+      <IBAN>ES0320859307080330265359</IBAN>
+      <IdRemesa>189127081502</IdRemesa>
+    </RegistroFin>
+  </Facturas>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:xades="http://uri.etsi.org/01903/v1.2.2#" Id="Signature">
+<ds:SignedInfo Id="Signature-SignedInfo">
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></ds:CanonicalizationMethod>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"></ds:SignatureMethod>
+<ds:Reference Id="SignedPropertiesID" Type="http://uri.etsi.org/01903/v1.2.2#SignedProperties" URI="#Signature-SignedProperties">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>//lfMii3+78Pscp2VKdXJvEljJo=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference URI="">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"></ds:Transform>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>jGy9JBpNbhv4Nx7Pux5axH8x3HQ=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference URI="#Certificate1">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod>
+<ds:DigestValue>oJmm8up1i/T5SjF7mpDKWs3iKq4=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="SignatureValue">
+STdPop4X0MRtHibL5tSnDby2LKdl8nuZxUNiYKH1FVUZLy3wTB91XXeMHFTeQMf82knzucMeKfNX
+DodCpS012FPOJA/9CBcDNI6GkpyHPj2ovQtWyAlaBJDQ0bmC8RAI2lnaefyPlITch+EvjFqWSDp7
+MrEdD2njQ0t54M/CLUKGDWFB4AUPVQ8ZT/sXKUKgx5SqyM2gTEQybL72E+pWGK/sW+I+ASzfgrsZ
+i07zIAgj2CkEzSM3kwMaaHhXcqboW27mbGs555VM/kP9taC1x4z2pZkPJwCuxH2GtTPpDwc5i3oU
+BrPAMMR5d/C9HzXvOGNA+rwbfHGkJP4IqU8NIA==
+</ds:SignatureValue>
+<ds:KeyInfo Id="Certificate1">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIIfTCCB2WgAwIBAgIQI7PwwHx82qxXkI6VvgOQ4TANBgkqhkiG9w0BAQsFADBNMQswCQYDVQQG
+EwJFUzERMA8GA1UECgwIRk5NVC1SQ00xDjAMBgNVBAsMBUNFUkVTMRswGQYDVQQDDBJBQyBSZXBy
+ZXNlbnRhY2nDs24wHhcNMTYwNzIxMDg1NzU3WhcNMTgwNzIxMDg1NzU3WjCCAQsxODA2BgNVBA0M
+L1JlZjpBRUFUL0FFQVQwMjE4L1BVRVNUTyAxLzM0OTYwLzIxMDcyMDE2MTA1NDAwMRgwFgYDVQQF
+Ew9JRENFUy0zMzMzMTY1NFAxFDASBgNVBCoMC1BBVUxBIE1BUklBMRYwFAYDVQQEDA1MT1JFTlpP
+IFNJTFZBMTUwMwYDVQQDDCwzMzMzMTY1NFAgUEFVTEEgTUFSSUEgTE9SRU5aTyAoUjogQjYyNzMz
+MTU5KTEYMBYGA1UEYQwPVkFURVMtQjYyNzMzMTU5MSkwJwYDVQQKDCBWSUVTR08gRElTVFJJQlVD
+SU9OIEVMRUNUUklDQSBTTDELMAkGA1UEBhMCRVMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEK
+AoIBAQDAsYQwoYufAz9VNHdqQzU34w0doCzJQ3KR9nJXN6CGJM8CnxViAaS6kFXxXnicRlR7mQ4O
+lpxTOylkYH0umOMHNrJllZWh3fONYMYN8DaqLzHaHKif/bBvKC2fa2C6ERRjHMS2ANdgknQdLN9V
+45iq7LFqByU9xFO5myWiVPUoHJ36wfgGJTUw+oOhfz4P4GN+9trU8sFZMuytZSosihqPUs6xz8iI
+L/NFvZwcFOTaPB40LVTSlD6ZiYP8Qh9HsPLzcWdNTeF/09bi3dwJV9p/Y81YPWX9EncuDkFKF0PP
+Rnb3Nl+ecapoB8kPQQzmrZsiadGn0eZ6uF8U+pQlasoxAgMBAAGjggSXMIIEkzCB5gYDVR0RBIHe
+MIHbgRhwYXVsYS5sb3JlbnpvQHZpZXNnby5jb22kgb4wgbsxHjAcBgkrBgEEAaxmAQcMD1ZBVEVT
+LUI2MjczMzE1OTEvMC0GCSsGAQQBrGYBBgwgVklFU0dPIERJU1RSSUJVQ0lPTiBFTEVDVFJJQ0Eg
+U0wxHjAcBgkrBgEEAaxmAQQMD0lEQ0VTLTMzMzMxNjU0UDEUMBIGCSsGAQQBrGYBAwwFU0lMVkEx
+FjAUBgkrBgEEAaxmAQIMB0xPUkVOWk8xGjAYBgkrBgEEAaxmAQEMC1BBVUxBIE1BUklBMAwGA1Ud
+EwEB/wQCMAAwDgYDVR0PAQH/BAQDAgXgMB0GA1UdJQQWMBQGCCsGAQUFBwMCBggrBgEFBQcDBDCB
+ggYIKwYBBQUHAQEEdjB0MD0GCCsGAQUFBzABhjFodHRwOi8vb2NzcHJlcC5jZXJ0LmZubXQuZXMv
+b2NzcHJlcC9PY3NwUmVzcG9uZGVyMDMGCCsGAQUFBzAChidodHRwOi8vd3d3LmNlcnQuZm5tdC5l
+cy9jZXJ0cy9BQ1JFUC5jcnQwHQYDVR0OBBYEFO3TblKotGm4NcbV3XIu1PzmzCruMIIBGgYDVR0g
+BIIBETCCAQ0wgfQGCisGAQQBrGYDCwIwgeUwKQYIKwYBBQUHAgEWHWh0dHA6Ly93d3cuY2VydC5m
+bm10LmVzL2RwY3MvMIG3BggrBgEFBQcCAjCBqgyBp0NlcnRpZmljYWRvIGVsZWN0csOzbmljbyBk
+ZSByZXByZXNlbnRhbnRlIGRlIHBlcnNvbmEganVyw61kaWNhIGVuIHN1cyByZWxhY2lvbmVzIGNv
+biBsYXMgQUFQUCwgRW50aWRhZGVzIHkgT3JnYW5pc21vcyBQw7pibGljb3MgdmluY3VsYWRvcyBv
+IGRlcGVuZGllbnRlcyBkZSBsYXMgbWlzbWFzMAkGBwQAi+xAAQAwCQYHYIVUAQMFCDCBpwYIKwYB
+BQUHAQMEgZowgZcwCAYGBACORgEBMBMGBgQAjkYBBjAJBgcEAI5GAQYBMGkGBgQAjkYBBTBfMC0W
+J2h0dHBzOi8vd3d3LmNlcnQuZm5tdC5lcy9wZHMvUERTX2VzLnBkZhMCZXMwLhYoaHR0cHM6Ly93
+d3cuY2VydC5mbm10LmVzL3Bkcy9QRFNfZW4ucGRmIBMCZW4wCwYGBACORgEDAgEPMB8GA1UdIwQY
+MBaAFNxQlp/XMYnJEeTvll/2X4JSRmJTMIHdBgNVHR8EgdUwgdIwgc+ggcyggcmGgZtsZGFwOi8v
+bGRhcHJlcC5jZXJ0LmZubXQuZXMvQ049Q1JMMTcsT1U9QUMlMjBSZXByZXNlbnRhY2lvbixPVT1D
+RVJFUyxPPUZOTVQtUkNNLEM9RVM/Y2VydGlmaWNhdGVSZXZvY2F0aW9uTGlzdDtiaW5hcnk/YmFz
+ZT9vYmplY3RjbGFzcz1jUkxEaXN0cmlidXRpb25Qb2ludIYpaHR0cDovL3d3dy5jZXJ0LmZubXQu
+ZXMvY3Jsc3JlcC9DUkwxNy5jcmwwDQYJKoZIhvcNAQELBQADggEBAJBdNHG3grNj1Yy6usnff2wL
+8pMm5sP8wdVKXTiXfM+67QNCgCpVN+TdHgid5uhiqj4I2UfUGR1IcFKvwlIRhf0jjLDVw94VtOHk
+C5EHff4eWTolu9byhq/gV+c/igsgt+5UG/BU3LFHCh9carPkw/EC3TubxQ1vV4IiyzfTJ9GavGO0
+5kgkcjiRYPUVLVWqByKc3X2KKyNK268jmkvOeF54OvMaA8ZJbfxQeV/2RA4XT/4U1dK+cgsAiqLv
+5LzwXhlqJ7O5xsMqPgVRQEA/VfLLgf6cOnmYMXYZLrxX/JyioorSFXN78wDGtSafIuxtknG/w1as
+6h76rHs3j5gMiJ4=
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+wLGEMKGLnwM/VTR3akM1N+MNHaAsyUNykfZyVzeghiTPAp8VYgGkupBV8V54nEZUe5kODpacUzsp
+ZGB9LpjjBzayZZWVod3zjWDGDfA2qi8x2hyon/2wbygtn2tguhEUYxzEtgDXYJJ0HSzfVeOYquyx
+agclPcRTuZslolT1KByd+sH4BiU1MPqDoX8+D+Bjfvba1PLBWTLsrWUqLIoaj1LOsc/IiC/zRb2c
+HBTk2jweNC1U0pQ+mYmD/EIfR7Dy83FnTU3hf9PW4t3cCVfaf2PNWD1l/RJ3Lg5BShdDz0Z29zZf
+nnGqaAfJD0EM5q2bImnRp9HmerhfFPqUJWrKMQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+<ds:Object Id="Signature-Object"><xades:QualifyingProperties Target="#Signature"><xades:SignedProperties Id="Signature-SignedProperties"><xades:SignedSignatureProperties><xades:SigningTime>2018-03-06T21:23:54+01:00</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></ds:DigestMethod><ds:DigestValue>6oh1Xha+CWtBDAIim2pm74+vPP8=</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>CN=AC Representación,OU=CERES,O=FNMT-RCM,C=ES</ds:X509IssuerName><ds:X509SerialNumber>47457284018788949511316719905460687073</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate><xades:SignerRole><xades:ClaimedRoles><xades:ClaimedRole>empresa</xades:ClaimedRole></xades:ClaimedRoles></xades:SignerRole></xades:SignedSignatureProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></MensajeFacturacion>
